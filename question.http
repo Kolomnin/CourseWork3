@@ -1,0 +1,29 @@
+##Добавить вопрос в список
+GET http://localhost:8080/exam/java/add?question=QuestionText&answer=QuestionAnswer
+
+###Добавить вопрос в список
+GET http://localhost:8080/exam/java/add?question=QuestionText1&answer=QuestionAnswer1
+
+###Добавить вопрос в список
+GET http://localhost:8080/exam/java/add?question=QuestionText2&answer=QuestionAnswer2
+
+###Удалить вопрос из списка
+GET http://localhost:8080/exam/java/remove?question=QuestionText&answer=QuestionAnswer
+
+###Получить список вопросов
+GET http://localhost:8080/exam/java/
+
+###Получить список вопросов рандомно
+GET http://localhost:8080/exam/get/1
+
+###Добавить вопрос в список
+GET http://localhost:8080/exam/math/add?question=QuestionText11&answer=QuestionAnswer11
+
+###Добавить вопрос в список
+GET http://localhost:8080/exam/math/add?question=QuestionText22&answer=QuestionAnswer22
+
+###Удалить вопрос из списка
+GET http://localhost:8080/exam/math/remove?question=QuestionText11&answer=QuestionAnswer11
+
+###Получить список вопросов
+GET http://localhost:8080/exam/math/
